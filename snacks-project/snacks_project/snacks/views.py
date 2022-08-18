@@ -18,5 +18,5 @@ class SnacksList(ListView):
 
 
 class SnacksDetail(DetailView):
-    template_name = "snacks_list.html"
+    template_name = "snacks_detail.html"
     model = Snacks
